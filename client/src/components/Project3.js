@@ -1,6 +1,6 @@
 import React from 'react';
-import AwasLobby from '../awas-lobby.png';
-import Github from '../github-512.png';
+import AwasLobby from '../assets/img/awas-lobby.png';
+import Github from '../assets/img/github-512.png';
 
 const Project3 = () => (
   <div className="App">

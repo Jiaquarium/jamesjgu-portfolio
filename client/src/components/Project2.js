@@ -1,7 +1,7 @@
 import React from 'react';
-import NewsgateMain from '../newsgate-main.png';
-import NewsgateThemes from '../newsgate-themes.png';
-import Github from '../github-512.png';
+import NewsgateMain from '../assets/img/newsgate-main.png';
+import NewsgateThemes from '../assets/img/newsgate-themes.png';
+import Github from '../assets/img/github-512.png';
 
 const Project2 = () => (
   <div className="App">

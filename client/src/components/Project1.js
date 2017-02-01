@@ -1,9 +1,9 @@
 import React from 'react';
-import QupidMain from '../qupid-main.png';
-import QupidLogin from '../qupid-login.png';
-import QupidMyCoupons from '../qupid-mycoupons.png';
-import QupidQR from '../qupid-qr.png';
-import Github from '../github-512.png';
+import QupidMain from '../assets/img/qupid-main.png';
+import QupidLogin from '../assets/img/qupid-login.png';
+import QupidMyCoupons from '../assets/img/qupid-mycoupons.png';
+import QupidQR from '../assets/img/qupid-qr.png';
+import Github from '../assets/img/github-512.png';
 
 const Project1 = () => (
   <div className="App">

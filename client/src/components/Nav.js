@@ -14,10 +14,10 @@ const Nav = () => (
         <Link className="link" to='/newsgate'>newsgate</Link>
       </li>
       <li>
-        <Link className="link" to='/arguewithastranger'>argue with a stranger</Link>
+        <Link className="link" to='/arguewithastranger'>argue with...</Link>
       </li>
       <li>
-        <Link className="link" to='/arts'>arts</Link>
+        <Link className="link" to='/art'>art</Link>
       </li>
     </ul>
   </div>
