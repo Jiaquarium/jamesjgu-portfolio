@@ -1,13 +1,11 @@
 import React from 'react';
 
-const Home = () => (
+const Arts = () => (
   <div className="App">
     <div>
-      <h2>Home</h2>
-      <div>
-      </div>
+      <h2>Art</h2>
     </div>
   </div>
 );
 
-export default Home;
+export default Arts;
