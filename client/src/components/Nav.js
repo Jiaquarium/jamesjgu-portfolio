@@ -8,18 +8,13 @@ const Nav = () => (
         <Link className="link" to='/'>home</Link>
       </li>
       <li>
-        <Link className="link" to='/qupid'>qupid</Link>
-      </li>
-      <li>
-        <Link className="link" to='/newsgate'>newsgate</Link>
-      </li>
-      <li>
-        <Link className="link" to='/arguewithastranger'>argue with...</Link>
+        <Link className="link" to='/projects'>projects</Link>
       </li>
       <li>
         <Link className="link" to='/art'>art</Link>
       </li>
     </ul>
+    <img className="bear" src={require('../assets/img/colorbear.png')} />  
   </div>
 );
 

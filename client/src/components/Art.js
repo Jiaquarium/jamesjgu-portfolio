@@ -12,7 +12,7 @@ const Arts = () => (
   <div className="App">
     <div>
       <h2>Art</h2>
-      <h3>2011-2015</h3>
+      <h4>2011-2015</h4>
       <div>
         <img className="image" alt="" src={drawing2} />
       </div>

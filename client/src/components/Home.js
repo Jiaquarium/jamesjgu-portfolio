@@ -26,8 +26,8 @@ const Home = () => (
         </div>
         
         <div className="about-right">
-          <p>Full stack software engineer that loves to create;<br />graduate of The University of Texas at Austin</p>
-          <p>Love learning new things, and find the intersection between creativity and software truly fascinating.
+          <p>Full stack software engineer who loves to create.</p>
+          <p>Love learning new things and finding the intersection between creativity and software.
 Graduated from The University of Texas at Austin with a BBA in Finance and a certificate in Elements of Computing (web development, databases, data structures).</p>
         </div>
 
