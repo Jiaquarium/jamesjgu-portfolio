@@ -1,9 +1,13 @@
 import React from 'react';
-import QupidMain from '../assets/img/qupid-main.png';
+import QupidOverview from '../assets/img/overview.png';
 import QupidLogin from '../assets/img/qupid-login.png';
 import QupidMyCoupons from '../assets/img/qupid-mycoupons.png';
 import QupidQR from '../assets/img/qupid-qr.png';
 import Github from '../assets/img/github-512.png';
+import FetchCoupon from '../assets/img/fetchCoupon.gif';
+import Scan from '../assets/img/scan.gif';
+import Nav from '../assets/img/nav.gif';
+import Sort from '../assets/img/sort.gif';
 
 const Project1 = () => (
   <div className="App">
@@ -17,20 +21,44 @@ const Project1 = () => (
       </a>
     </div>
 
+    
     <div>
-      <img className="image" alt="" src={QupidMain} />
+      <img className="image" alt="" src={QupidOverview} />
     </div>
 
     <div className="description">
       <p>
-        IoT marketing platform allows business owners to dynamically interact with customers through iBeacons and a React Native-built iOS app. Customers receive coupons upon entering the vicinity of a bluetooth-signal-emitting iBeacon. Coupon metadata including activation time can be customized through a business portal. Coupons are redeemed in real-time through a uniquely-generated QR code and an iOS scanner app.
+        Qupid is an IoT-based mobile marketing platform that rethinks the way businesses interact with consumers and reinvigorates the in-store purchasing experience.
       </p>
     </div>
 
     <div className="description">
       <p>
-        Architected frontend structure using React Native for iOS mobile client and ReactJS for web app; used Redux for state management. Leveraged Universal JavaScript concepts for high performance rendering. Handled image uploads by building microservice to store images with Google Cloud Platform. Enabled live mobile-to-mobile scanning of unique QR codes with Socket.IO. Deployed MySQL database using Google's Cloud SQL and deployed internal APIs using Docker containers and AWS. Developed worker to periodically update database to keep coupons refreshed.
+        Qupid integrates iBeacon technology with an iOS native app and web app to provide a B2C solution that distributes advertisements/coupons to shoppers in real-time, based on their vicinity to the beacons. Business owners are provided data-driven statistics regarding consumer trends while bargain-hunters are rewarded with curated coupons by their favorite brick-and-mortar stores.
       </p>
+    </div>
+
+    <div className="description">
+      <p>
+        The business portal for coupon creation/beacon registration can be found here:
+      </p>
+      <a className="web-link" href="http://www.qupid.biz">
+        www.qupid.biz
+      </a>
+    </div>
+
+    <h2>A Few iOS Features...</h2>
+
+    <h4>Live Location-Aware Advertising (User) and QR Scanning Functionality (Business)</h4>
+    <div className="container">
+      <img className="gif1" alt="" src={FetchCoupon} />
+      <img className="gif2" alt="" src={Scan} />
+    </div>
+
+    <h4>Navigation and Sorting (User)</h4>
+    <div className="container">
+      <img className="gif1" alt="" src={Nav} />
+      <img className="gif2" alt="" src={Sort} />
     </div>
 
     <h2>Additional Media</h2>

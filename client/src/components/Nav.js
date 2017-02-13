@@ -14,7 +14,7 @@ const Nav = () => (
         <Link className="link" to='/art'>art</Link>
       </li>
     </ul>
-    <img className="bear" src={require('../assets/img/colorbear.png')} />  
+    <img className="bear" alt="" src={require('../assets/img/colorbear.png')} />  
   </div>
 );
 

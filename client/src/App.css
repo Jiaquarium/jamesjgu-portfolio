@@ -71,6 +71,16 @@ ul {
   margin-left: auto;
 }
 
+.gif1 {
+  text-align: center;
+  padding-right: 30px;
+}
+
+.gif2 {
+  text-align: center;
+  padding-left: 30px;
+}
+
 .github {
   width: 35px;
   padding-top: 20px;
@@ -216,11 +226,19 @@ h4 {
   font-family: "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.web-link {
+  text-decoration: none;
+  font-size: 16px;
+  color: #374837;
+  letter-spacing: 1px;
+  font-family: "Roboto", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 /*
   project nav
 */
 .projects-container {
-   text-align: justify;
+  text-align: justify;
   -ms-text-justify: distribute-all-lines;
   text-justify: distribute-all-lines;
   margin-top: -10px;
@@ -230,6 +248,7 @@ h4 {
   display: inline-block;
   width: 200px;
   margin-right: 50px;
+  vertical-align: top;
 }
 .crop-container {
   width: 200px;
@@ -240,6 +259,7 @@ h4 {
   display: inline-block;
   text-align: center;
   margin-top: -20px;
+  vertical-align: top;
 }
 .crop-container:hover {
   border: .5px solid black;
